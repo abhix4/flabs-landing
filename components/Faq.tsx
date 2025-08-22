@@ -5,7 +5,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 export default function Faq() {
     const [openItems, setOpenItems] = useState({});
 
-    const toggleItem = (index) => {
+    const toggleItem = (index: any) => {
         setOpenItems(prev => ({
             ...prev,
             [index]: !prev[index]
@@ -43,7 +43,7 @@ export default function Faq() {
             </h2>
             
             <div className="w-full space-y-4">
-                {faqData.map((item, index) => (
+                {faqData.map((item, index:any) => (
                     <div 
                         key={index} 
                         className="border border-gray-200 rounded-lg overflow-hidden  hover:shadow-sm transition-shadow duration-200"
