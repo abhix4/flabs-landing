@@ -28,19 +28,19 @@ export default function Footer(){
 
             <div>
                 <p className="text-lg font-medium mb-1">Useful Links</p>
-                <p>Login</p>
-                <p>Investor Relations</p>
-                <p>Pathalogy LIMS</p>
-                <p>Get Records</p>
-                <p>Get a Demo</p>
+                <p className="cursor-pointer">Login</p>
+                <p className="cursor-pointer">Investor Relations</p>
+                <p className="cursor-pointer">Pathalogy LIMS</p>
+                <p className="cursor-pointer">Get Records</p>
+                <p className="cursor-pointer">Get a Demo</p>
             </div>
             <div>
                 <p className="text-lg font-medium mb-1">Company</p>
-                <p>About us</p>
-                <p>Blogs</p>
-                <p>Terms and Conditions</p>
-                <p>Privacy Policy</p>
-                <p>Cancellation & Refund Policy</p>
+                <p className="cursor-pointer">About us</p>
+                <p className="cursor-pointer">Blogs</p>
+                <p className="cursor-pointer">Terms and Conditions</p>
+                <p className="cursor-pointer">Privacy Policy</p>
+                <p className="cursor-pointer">Cancellation & Refund Policy</p>
             </div>
         </div>
         </div>

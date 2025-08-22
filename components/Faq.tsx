@@ -14,41 +14,30 @@ export default function Faq() {
 
     const faqData = [
         {
-            question: "What is your return policy?",
-            answer: "We offer a 30-day return policy for all unused items in their original packaging. Simply contact our customer service team to initiate a return, and we'll provide you with a prepaid shipping label. Refunds are processed within 5-7 business days after we receive your return."
+            question: "Is there a free trial available for Flabs?",
+            answer: "Yes, Flabs offers a 5 days free trial of the software. This allows labs to explore its features and evaluate its suitability for their needs before making a purchase."
         },
         {
-            question: "How long does shipping take?",
-            answer: "Standard shipping typically takes 3-5 business days within the continental US. Express shipping (1-2 business days) and overnight shipping options are also available at checkout. International shipping times vary by location, usually 7-14 business days."
+            question: "Is Flabs a cloud-based software?",
+            answer: "Yes, Flabs is a complete online software solution. It offers the convenience of cloud-based access, allowing labs to access their data securely from anywhere, anytime."
         },
         {
-            question: "Do you offer customer support?",
-            answer: "Yes! Our customer support team is available Monday through Friday, 9 AM to 6 PM EST. You can reach us via email at support@example.com, phone at (555) 123-4567, or through our live chat feature on the website."
+            question: "Do I need any specification to run this software?",
+            answer: "No, you can easily run this software on any browser of your choice."
         },
         {
-            question: "What payment methods do you accept?",
-            answer: "We accept all major credit cards (Visa, MasterCard, American Express, Discover), PayPal, Apple Pay, Google Pay, and Shop Pay. All transactions are securely processed with SSL encryption to protect your information."
+            question: "Can I customize the reports sent through Flabs?",
+            answer: "Yes, Flabs offers customization options for reports. You can tailor the reports according to your lab's branding and requirements, providing a professional and personalized touch to the information shared with patients."
         },
         {
-            question: "Can I track my order?",
-            answer: "Absolutely! Once your order ships, you'll receive a tracking number via email. You can also log into your account on our website to view real-time tracking information and delivery updates."
+            question: "Can lab owners access Flabs using their mobile phones?",
+            answer: "Yes, lab owners can access Flabs using their mobile phones. The software is mobile-friendly, allowing owners to generate and check reports even on their mobile devices."
         },
-        {
-            question: "Do you offer international shipping?",
-            answer: "Yes, we ship to over 50 countries worldwide. International shipping costs and delivery times vary by destination. Customs fees and import duties may apply and are the responsibility of the customer."
-        },
-        {
-            question: "How do I create an account?",
-            answer: "Click the 'Sign Up' button at the top of any page and fill out the registration form with your email and preferred password. You'll receive a confirmation email to activate your account. Having an account allows you to track orders, save favorites, and checkout faster."
-        },
-        {
-            question: "What if I receive a damaged item?",
-            answer: "We're sorry if you received a damaged item! Please contact us within 48 hours of delivery with photos of the damage. We'll immediately send a replacement or provide a full refund, and you won't need to return the damaged item."
-        }
+    
     ];
 
     return (
-        <div className="max-w-4xl mx-auto flex flex-col items-center justify-center mt-20 mb-20 px-4">
+        <div className="max-w-4xl mx-auto flex flex-col items-center justify-center mt-[200px] mb-20 px-4">
             <h2 className="text-4xl font-medium text-center text-[#101010] mb-12">
                 Frequently Asked Questions
             </h2>
@@ -57,10 +46,10 @@ export default function Faq() {
                 {faqData.map((item, index) => (
                     <div 
                         key={index} 
-                        className="border border-gray-200 rounded-lg overflow-hidden  hover:shadow-md transition-shadow duration-200"
+                        className="border border-gray-200 rounded-lg overflow-hidden  hover:shadow-sm transition-shadow duration-200"
                     >
                         <button
-                            className="w-full px-6 py-4 text-left bg-white hover:bg-gray-50 transition-colors duration-200 flex justify-between items-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset"
+                            className="w-full px-6 py-4 text-left bg-white hover:bg-gray-50 transition-colors duration-200 flex justify-between items-center "
                             onClick={() => toggleItem(index)}
                             aria-expanded={openItems[index] || false}
                         >

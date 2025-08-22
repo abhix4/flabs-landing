@@ -14,11 +14,11 @@ export default function Nav(){
                     />
                 </div>
                 {/* center */}
-                <div className="uppercase flex gap-4 text-lg">
-                    <p className="hover:text-[#4678ee]">get records</p>
-                    <p className="hover:text-[#4678ee]">record format</p>
-                    <p className="hover:text-[#4678ee]">lims</p>
-                    <p className="hover:text-[#4678ee]">more</p>
+                <div className="uppercase flex gap-4">
+                    <p className="hover:text-[#4678ee] cursor-pointer">get records</p>
+                    <p className="hover:text-[#4678ee] cursor-pointer">record format</p>
+                    <p className="hover:text-[#4678ee] cursor-pointer">lims</p>
+                    <p className="hover:text-[#4678ee] cursor-pointer">more</p>
                 </div>
                 {/* right */}
                 <div className="flex text-lg gap-2">

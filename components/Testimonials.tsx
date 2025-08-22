@@ -33,7 +33,7 @@ export default function Testimonials(){
 
 
     return (
-        <div className="max-w-6xl mx-auto flex flex-col items-center mt-30">
+        <div className="max-w-6xl mx-auto flex flex-col items-center mt-[200px]">
             <h2 className="bg-[#101010] text-white px-6 py-1 rounded-full">Testimonials</h2>
             <p className="text-4xl mt-10 font-medium text-center text-[#101010]">What our <span className="text-[#4678ee]">customers</span> say</p>
              <div 
@@ -49,7 +49,7 @@ export default function Testimonials(){
                     >
                         {data.map((testimonial, index) => (
                             <div key={index} className="w-full flex-shrink-0">
-                                <div className="bg-white p-8 md:p-12  border border-gray-100 min-h-[300px] flex flex-col justify-center">
+                                <div className="bg-white p-8 md:p-12  border border-black/10 min-h-[300px] flex flex-col justify-center rounded-2xl">
                                     {/* Quote Icon */}
                                     {/* <div className="flex justify-center mb-6">
                                         <Quote className="w-12 h-12 text-[#4678ee] opacity-70" />
